@@ -3,68 +3,38 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="title" content="Anatomy-Aware Prediction of Bronchoscopic Accessibility from 3D CT">
+  <meta name="description" content="The first end-to-end deep learning framework for predicting bronchoscopy accessibility from pre-operative CT. An Anatomy-Aware Mixture-of-Experts model achieves 0.8052 AUROC, outperforming baselines and human experts.">
+  <meta name="keywords" content="Mixture of Experts, Bronchoscopy Accessibility, Clinical Planning, Medical Imaging, 3D CT, Airway Analysis, Computer-Aided Intervention, MICCAI">
+  <meta name="author" content="Linkai Peng, Cuiling Sun, Bin Wang, Jamie Rowell, Catherine Gao, Oyku Ikizgul, Eminenur Sentasci, Andrea Bejar, Halil Ertugrul Aktas, Gorkem Durak, Momen Wahidi, Christopher Kapp, Ulas Bagci">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
-  
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:site_name" content="Northwestern University">
+  <meta property="og:title" content="Anatomy-Aware Prediction of Bronchoscopic Accessibility from 3D CT">
+  <meta property="og:description" content="The first end-to-end deep learning framework for predicting bronchoscopy accessibility from pre-operative CT. An Anatomy-Aware Mixture-of-Experts model achieves 0.8052 AUROC, outperforming baselines and human experts.">
+  <!-- TODO: Replace with your actual website URL once deployed -->
   <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <!-- TODO: Create a 1200x630px preview image -->
+  <meta property="og:image" content="static/images/main_00.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="og:image:alt" content="Anatomy-Aware Prediction of Bronchoscopic Accessibility from 3D CT - Research Preview">
+  <meta property="article:author" content="Linkai Peng">
   <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="article:tag" content="Bronchoscopy">
+  <meta property="article:tag" content="Mixture of Experts">
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
-
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
   <meta name="msapplication-TileColor" content="#2563eb">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
+
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,167 +42,66 @@
   <link rel="preconnect" href="https://documentcloud.adobe.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
+  <title>Anatomy-Aware Prediction of Bronchoscopic Accessibility from 3D CT | MICCAI 2026</title>
 
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico"> -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🫁</text></svg>">
+
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
+
   <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <!-- <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
   <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
+
   <!-- Fallback for browsers that don't support preload -->
   <noscript>
-    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <!-- <link rel="stylesheet" href="static/css/bulma-carousel.min.css"> -->
     <link rel="stylesheet" href="static/css/bulma-slider.min.css">
     <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   </noscript>
-  
-  <!-- Fonts - Optimized loading -->
+
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
+
   <!-- Defer non-critical JavaScript -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <!-- <script defer src="static/js/bulma-carousel.min.js"></script> -->
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
+
   <!-- Structured Data for Academic Papers -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "Anatomy-Aware Prediction of Bronchoscopic Accessibility from 3D CT",
+    "description": "The first end-to-end deep learning framework for predicting bronchoscopy accessibility from pre-operative CT, using an Anatomy-Aware Mixture-of-Experts model.",
     "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
+      { "@type": "Person", "name": "Linkai Peng", "affiliation": { "@type": "Organization", "name": "Northwestern University" } },
+      { "@type": "Person", "name": "Ulas Bagci", "affiliation": { "@type": "Organization", "name": "Northwestern University" } }
     ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
+    "publisher": { "@type": "Organization", "name": "MICCAI 2026" },
+    "keywords": ["Mixture of Experts", "Bronchoscopy Accessibility", "Clinical Planning", "Medical Imaging"],
     "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
+    "license": "https://creativecommons.org/licenses/by/4.0/"
   }
   </script>
 </head>
 <body>
 
-
   <!-- Scroll to Top Button -->
   <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
     <i class="fas fa-chevron-up"></i>
   </button>
-
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
 
   <main id="main-content">
   <section class="hero">
@@ -240,237 +109,234 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Anatomy-Aware Prediction of Bronchoscopic Accessibility from 3D CT</h1>
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+              <span class="author-block">Linkai Peng<sup>1</sup>,</span>
+              <span class="author-block">Cuiling Sun<sup>2</sup>,</span>
+              <span class="author-block">Bin Wang<sup>1</sup>,</span>
+              <span class="author-block">Jamie Rowell<sup>3</sup>,</span>
+              <span class="author-block">Catherine Gao<sup>3</sup>,</span>
+              <span class="author-block">Oyku Ikizgul<sup>4</sup>,</span>
+              <span class="author-block">Eminenur Sentasci<sup>5</sup>,</span>
+              <span class="author-block">Andrea Bejar<sup>5</sup>,</span>
+              <span class="author-block">Halil Ertugrul Aktas<sup>5</sup>,</span>
+              <span class="author-block">Gorkem Durak<sup>5</sup>,</span>
+              <span class="author-block">Momen Wahidi<sup>3</sup>,</span>
+              <span class="author-block">Christopher Kapp<sup>3</sup>,</span>
+              <span class="author-block">Ulas Bagci<sup>5</sup>&dagger;</span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Department ofElectrical and Computer Engineering, Northwestern University&nbsp;&nbsp;</span>
+              <span class="author-block"><sup>2</sup>Department ofComputer Science, Northwestern University<br></span>
+              <span class="author-block"><sup>3</sup>Department of Medicine, Northwestern University&nbsp;&nbsp;</span>
+              <span class="author-block"><sup>4</sup>Department of Radiology, Istanbul Faculty of Medicine<br></span>
+              <span class="author-block"><sup>5</sup>Department of Radiology, Northwestern University<br></span><br>
+              <span class="author-block"><strong>MICCAI 2026</strong></span>
+              <span class="eql-cntrb"><small><br>&dagger;Corresponding author: <a href="mailto:ulas.bagci@northwestern.edu">ulas.bagci@northwestern.edu</a></small></span>
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+            <div class="column has-text-centered">
+              <div class="publication-links">
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
+                <!-- arXiv: not available yet. Uncomment and fill in once posted. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/ARXIV_ID" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
+                  <span>arXiv</span>
+                  </a>
+                </span>
+               
 
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
+                <!-- Code: not available yet. Uncomment once the repo is public. -->
+                <span class="link-block">
+                  <a href="https://github.com/NUBagciLab/BronchoAccess" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                  </a>
+                </span>
+               
+
+                <!-- HuggingFace -->
+                <span class="link-block">
+                  <a href="https://huggingface.co/YOUR_HF_REPO" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">&#129303;</span>
+                  <span>HuggingFace</span>
                   </a>
                 </span>
 
-                <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
+  <!-- Teaser figure -->
+  <!-- <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <img src="static/images/main_00.png" alt="Overview of the proposed anatomy-aware mixture-of-experts framework"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Overview of our anatomy-aware mixture-of-experts framework. Three specialized experts &mdash; a CT Expert, a Lobe Expert, and a Path Geometry Expert &mdash; are adaptively fused to predict bronchoscopy accessibility directly from pre-operative CT.
         </h2>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
+  </section>
+  End teaser -->
 
 
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Pre-operative planning for bronchoscopy is critical for the diagnosis of lung lesions. Current accessibility assessment relies on subjective manual inspection of CT scans, which is time-consuming and prone to inter-observer variability. In this paper, we formalize bronchoscopy accessibility prediction as a novel supervised learning task and present the first end-to-end framework to address it. We propose an Anatomy-Aware Mixture-of-Experts (MoE) model that integrates specialized modules: a CT Expert for local morphological features, a Lobe Expert for anatomical priors, and a Path Geometry Expert that encodes the sequential constraints of the bronchial tree. To support this task, we curated the first clinical dataset of 438 cases with pre-operative CT scans and documented procedural outcomes. Experimental results demonstrate that our method achieves an AUROC of 0.8052, significantly outperforming both state-of-the-art baselines and experienced human experts. This work establishes a new benchmark for computer-aided interventional planning in pulmonary medicine.
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End youtube video -->
+  </section>
+  <!-- End paper abstract -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
+  <!-- Method / Results figure carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item">
+            <!-- TODO: drop in additional figures (e.g. qualitative TP/FP/FN/TN cases) -->
+            <img src="static/images/main_00.png" alt="Framework overview" loading="lazy"/>
+            <h2 class="subtitle has-text-centered">
+              Framework overview: anatomy-aware adaptive expert fusion.
+            </h2>
+          </div>
         </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
       </div>
     </div>
   </section>
-<!--End paper poster -->
+  <!-- End carousel -->
 
+  <!-- Quantitative Results -->
+  <section class="section hero">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Quantitative Results</h2>
+ 
+      <!-- Table 1: Main comparison -->
+      <div class="content">
+        <h3 class="title is-5">Comparison with Diverse Baselines</h3>
+        <p class="has-text-justified">
+          Conventional ML on handcrafted features shows limited discriminative ability; CT-based deep networks reach at best 0.6333 AUROC, and graph neural networks up to 0.6483. Human experts achieve only 0.5661 AUROC, indicating that visual CT inspection alone is insufficient. Our hybrid model reaches <strong>0.8052 AUROC</strong> with just 3.83M parameters.
+        </p>
+        <div class="table-container">
+          <table class="table is-bordered is-striped is-hoverable is-fullwidth has-text-centered">
+            <thead>
+              <tr>
+                <th>Input</th><th class="has-text-left">Method</th><th>Acc.</th><th>F1</th><th>AUROC</th><th>PRAUC</th><th>Params</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td rowspan="2">Geometric<br>Features</td><td class="has-text-left">Logistic Regression</td><td>0.6136</td><td>0.7536</td><td>0.5128</td><td>0.6897</td><td>N/A</td></tr>
+              <tr><td class="has-text-left">Random Forest</td><td>0.5682</td><td>0.7031</td><td>0.4590</td><td>0.5785</td><td>N/A</td></tr>
+ 
+              <tr><td rowspan="5">CT<br>Volumes</td><td class="has-text-left">DenseNet121&dagger;</td><td>0.5909</td><td>0.7313</td><td>0.5301</td><td>0.6543</td><td>11.24M</td></tr>
+              <tr><td class="has-text-left">Swin Transformer&dagger;</td><td>0.6136</td><td>0.7499</td><td>0.5418</td><td>0.8069</td><td>38.50M</td></tr>
+              <tr><td class="has-text-left">EfficientNet-b0&dagger;</td><td>0.6022</td><td>0.7517</td><td>0.5725</td><td>0.7459</td><td>4.69M</td></tr>
+              <tr><td class="has-text-left">ConvNeXt&dagger;</td><td>0.6023</td><td>0.7482</td><td>0.5982</td><td>0.7750</td><td>31.30M</td></tr>
+              <tr><td class="has-text-left">ResNet18&dagger;</td><td>0.5795</td><td>0.6185</td><td>0.6333</td><td>0.7700</td><td>33.16M</td></tr>
+ 
+              <tr><td rowspan="4">Airway<br>Graph</td><td class="has-text-left">GAT&dagger;</td><td>0.6386</td><td>0.7794</td><td>0.5767</td><td>0.7115</td><td>52.35K</td></tr>
+              <tr><td class="has-text-left">GIN&dagger;</td><td>0.6265</td><td>0.7257</td><td>0.5774</td><td>0.6782</td><td>101.12K</td></tr>
+              <tr><td class="has-text-left">GraphSAGE&dagger;</td><td>0.6203</td><td>0.7541</td><td>0.5897</td><td>0.7129</td><td>86.14K</td></tr>
+              <tr><td class="has-text-left">GCN&dagger;</td><td>0.6329</td><td>0.7752</td><td>0.6483</td><td>0.7666</td><td>51.59K</td></tr>
+ 
+              <tr><td>—</td><td class="has-text-left">Human Experts</td><td>0.5272</td><td>0.5423</td><td>0.5661</td><td>0.7434</td><td>N/A</td></tr>
+ 
+              <tr class="is-selected"><td><strong>Hybrid</strong></td><td class="has-text-left"><strong>Ours</strong></td><td><strong>0.8068</strong></td><td><strong>0.8595</strong></td><td><strong>0.8052</strong></td><td><strong>0.8496</strong></td><td><strong>3.83M</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="is-size-7">&dagger; indicates a statistically significant difference compared with the proposed method (DeLong test, p &lt; 0.05). Human assessments provided by 22 clinicians.</p>
+      </div>
+ 
+      <!-- Table 2: Identical CT inputs -->
+      <div class="content" style="margin-top: 3rem;">
+        <h3 class="title is-5">Comparison Under Identical CT Inputs</h3>
+        <p class="has-text-justified">
+          To verify the gain does not come from richer inputs alone, we compare against CT-based deep networks trained on the same multi-channel inputs (CT intensity, airway distance map, lesion mask). Our model still leads clearly, confirming the benefit comes from architectural decomposition and adaptive fusion.
+        </p>
+        <div class="table-container">
+          <table class="table is-bordered is-striped is-hoverable is-fullwidth has-text-centered">
+            <thead>
+              <tr><th class="has-text-left">Method</th><th>Acc.</th><th>F1</th><th>AUROC</th><th>PRAUC</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="has-text-left">Swin Transformer&dagger;</td><td>0.6250</td><td>0.7626</td><td>0.5243</td><td>0.6698</td></tr>
+              <tr><td class="has-text-left">ConvNeXt&dagger;</td><td>0.6477</td><td>0.7438</td><td>0.6629</td><td>0.7057</td></tr>
+              <tr><td class="has-text-left">DenseNet121&dagger;</td><td>0.6590</td><td>0.7058</td><td>0.6640</td><td>0.7611</td></tr>
+              <tr><td class="has-text-left">ResNet18&dagger;</td><td>0.6818</td><td>0.7586</td><td>0.7109</td><td>0.7834</td></tr>
+              <tr><td class="has-text-left">EfficientNet-b0</td><td>0.6704</td><td>0.7819</td><td>0.7310</td><td>0.8269</td></tr>
+              <tr class="is-selected"><td class="has-text-left"><strong>Ours</strong></td><td><strong>0.8068</strong></td><td><strong>0.8595</strong></td><td><strong>0.8052</strong></td><td><strong>0.8496</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="is-size-7">&dagger; indicates a statistically significant difference (DeLong test, p &lt; 0.05).</p>
+      </div>
+ 
+      <!-- Table 3: Ablation -->
+      <div class="content" style="margin-top: 3rem;">
+        <h3 class="title is-5">Ablation Study</h3>
+        <p class="has-text-justified">
+          We evaluate the contribution of each expert. The CT Expert is the strongest single branch (0.7382 AUROC); the Lobe Expert performs near chance alone, consistent with its role as a global prior. Combining all three through adaptive gating gives the best result.
+        </p>
+        <div class="table-container">
+          <table class="table is-bordered is-striped is-hoverable is-fullwidth has-text-centered">
+            <thead>
+              <tr><th>Lobe Expert</th><th>Path Expert</th><th>CT Expert</th><th>Acc.</th><th>F1</th><th>AUROC</th><th>PRAUC</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>&#10003;</td><td>—</td><td>—</td><td>0.6190</td><td>0.7647</td><td>0.5513</td><td>0.7030</td></tr>
+              <tr><td>—</td><td>&#10003;</td><td>—</td><td>0.6310</td><td>0.7704</td><td>0.6040</td><td>0.6665</td></tr>
+              <tr><td>—</td><td>—</td><td>&#10003;</td><td>0.7500</td><td>0.8035</td><td>0.7382</td><td>0.8028</td></tr>
+              <tr><td>&#10003;</td><td>&#10003;</td><td>—</td><td>0.7045</td><td>0.7968</td><td>0.5960</td><td>0.6857</td></tr>
+              <tr><td>&#10003;</td><td>—</td><td>&#10003;</td><td>0.7841</td><td>0.8504</td><td>0.7477</td><td>0.8141</td></tr>
+              <tr><td>—</td><td>&#10003;</td><td>&#10003;</td><td>0.7500</td><td>0.8358</td><td>0.7756</td><td>0.8030</td></tr>
+              <tr class="is-selected"><td><strong>&#10003;</strong></td><td><strong>&#10003;</strong></td><td><strong>&#10003;</strong></td><td><strong>0.8068</strong></td><td><strong>0.8595</strong></td><td><strong>0.8052</strong></td><td><strong>0.8496</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+  <!-- End Quantitative Results -->
 
+<!-- Qualitative Analysis -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Qualitative Analysis</h2>
+    <div class="content has-text-centered">
+      <!-- TODO: export Fig.2 (page 8) as static/images/qualitative.png -->
+      <img src="static/images/visualization_01.png" alt="Representative TP, FP, FN, TN predictions with airway trees and lesion locations" style="max-width:100%;" loading="lazy"/>
+      <p class="subtitle is-6 has-text-justified" style="margin-top: 1rem;">
+        Representative true positive (TP), false positive (FP), false negative (FN), and true negative (TN) cases. Airway trees are rendered together with target lesion locations (red markers). The TP case shows a lesion near a well-connected branch with sufficient diameter; the FP case sits close to the distal bronchi but with abrupt branching changes, where the CT Expert may overweigh local proximity; the FN involves a peripheral lesion that may still be sampled in practice via operator expertise or ultra-thin bronchoscopes; the TN is a deeply peripheral lesion with sparse connectivity. Accessibility depends on both local lesion&ndash;airway adjacency and cumulative geometric constraints.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- End Qualitative Analysis -->
 
-<!--BibTex citation -->
+  <!-- BibTeX citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <div class="bibtex-header">
@@ -480,41 +346,34 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+      <pre id="bibtex-code"><code>@inproceedings{peng2026bronchoacc,
+  title={Anatomy-Aware Prediction of Bronchoscopic Accessibility from 3D CT},
+  author={Peng, Linkai and Sun, Cuiling and Wang, Bin and Rowell, Jamie and Gao, Catherine and Ikizgul, Oyku and Sentasci, Eminenur and Bejar, Andrea and Aktas, Halil Ertugrul and Durak, Gorkem and Wahidi, Momen and Kapp, Christopher and Bagci, Ulas},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  year={2026}
 }</code></pre>
     </div>
-</section>
-<!--End BibTex citation -->
+  </section>
+  <!-- End BibTeX citation -->
 
+    
 
   <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+  </main>
 
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
